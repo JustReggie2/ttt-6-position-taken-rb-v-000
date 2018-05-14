@@ -1,8 +1,8 @@
 # code your #position_taken? method here!
-board = ["   ","   ","   ","   ","   ","   ","   ","   ","   "]
+#board = ["   ","   ","   ","   ","   ","   ","   ","   ","   "]
 
 def position_taken?(board, index)
-  board[0] == "   " || board[0] == ("X" || "O")
+ board[index] == "X" || board[index] == "O"
 
     #board[0] != "   " && board[0] != "  "
   #else board[0] == "  " || board[0] == "   "
